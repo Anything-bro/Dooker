@@ -6,5 +6,5 @@ RUN apt-get update -y && apt-get upgrade -y \
 COPY . /app/
 WORKDIR /app/
 RUN git clone https://github.com/Dawn-India/Z-Mirror
-RUN cd dooker && pip3 install -U -r requirements.txt
+RUN cd firststeprobot && pip3 install -U -r requirements.txt
 CMD cd python3 update.py && python3 -m bot
