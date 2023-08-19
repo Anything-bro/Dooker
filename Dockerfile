@@ -7,4 +7,4 @@ COPY . /app/
 WORKDIR /app/
 RUN git clone https://github.com/Dawn-India/Z-Mirror
 RUN cd Z-Mirror && pip3 install -U -r requirements.txt
-CMD cd Z-Mirror update.py && python3 -m bot
+CMD cd Z-Mirror && python3 update.py && python3 -m bot
