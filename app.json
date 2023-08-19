@@ -13,12 +13,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "16575077",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "1c8c0bcb55c14e0fd8078058966b6a11",
       "required": true
     },
     "AUTO_LEAVING_ASSISTANT": {
@@ -28,12 +28,12 @@
     },
     "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
-      "value": "",
+      "value": "6230237564:AAHGbISTLn4dSUWsTM4Od_aPggpWvh_1qMQ",
       "required": true
     },
     "MONGO_DB_URI": {
       "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-      "value": "",
+      "value": "mongodb+srv://MdiskDb:MdiskDb@cluster0.lmirmtn.mongodb.net/?retryWrites=true&w=majority",
       "required": true
     },
     "MUSIC_BOT_NAME": {
@@ -43,7 +43,7 @@
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be separated with a space.",
-      "value": "5218610039",
+      "value": "1702061654",
       "required": true
     },
     "STRING_SESSION": {
@@ -53,17 +53,17 @@
     },
     "HEROKU_API_KEY": {
       "description": "Your Heroku account's API key",
-      "value": "",
+      "value": "f92336b9-0bd0-45b1-aac0-b2d2e02fbbfa",
       "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "Your heroku app/bot's name",
-      "value": "",
+      "value": "firststeprobot",
       "required": false
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-      "value": "",
+      "value": "-1001700182310",
       "required": true
     },
     "UPSTREAM_REPO": {
